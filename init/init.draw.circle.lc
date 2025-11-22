@@ -1,0 +1,11 @@
+codeget logigraphics
+using logigraphics as gui
+gui.draw.circle "circle"
+    staged = true
+    size 40
+    time = 12 secs
+    endl
+gui.root.part
+    for circle:
+        new.root:
+            gui.window

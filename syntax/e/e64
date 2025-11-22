@@ -1,0 +1,7 @@
+import time
+import sys
+import os
+
+print(f"[{os.getpid()}] Starting process with arguments: {sys.argv[1:]}")
+time.sleep(5)
+print(f"[{os.getpid()}] Process finished after 5 seconds")

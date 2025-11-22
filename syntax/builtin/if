@@ -1,0 +1,8 @@
+import os
+def bool_if(funct):
+    if funct == print(os):
+        print("hi")
+def lsfiles():
+    os.listdir
+bool_if(funct = print(os))
+lsfiles()

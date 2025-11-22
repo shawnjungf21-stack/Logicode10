@@ -1,0 +1,9 @@
+import os
+def mkfile(filename: str, filepath: str):
+    os.makedirs(filepath, exist_ok=True)
+    full_path = os.path.join(filepath, filename)
+    with open(full_path, "w") as f:
+        f.write("")
+    print(f"File created: {full_path}")
+if __name__ == "__main__":
+    mkfile("example.txt", "./testdir")

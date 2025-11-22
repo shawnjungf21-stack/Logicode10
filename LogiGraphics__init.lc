@@ -1,0 +1,21 @@
+codeget /logigraphics/
+
+using logigraphics as gui
+gui.draw. x, y, z, size 40
+gui.draw circle size 40
+using circle size 40 as circle
+codeget grav
+using grav
+grav to item "circle"
+gui.draw 80 20, size 40
+  as item "paddle"
+codeget keybinds
+group paddle:
+  with paddle:
+    keybind(arrowkeys)
+    using arrowkeyleft, arrowkeyright
+    arrowkeyleft = move.paddle: left
+    arrowkeyright = move.paddle: right
+  end
+end
+#This is the end of the code to create a paddle game. We will add better physics later.

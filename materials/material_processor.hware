@@ -1,0 +1,8 @@
+codeget hware
+using hware as hw
+hw.reserve.cpu_cores: 2
+using cpu_cores
+    packets.i/o from item "resources.json"
+    using currentdir as mats
+    mats.i/o api
+end

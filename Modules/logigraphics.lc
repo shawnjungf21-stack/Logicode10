@@ -1,0 +1,14 @@
+codeget py
+using item py as python
+python{
+    import tkinter
+}
+pymod.get.Item tkinter as tk
+using tk as logigraphics
+greate.new.module "logigraphics"
+if greate.new.module "logigraphics"
+    create.alias "gui"
+using syntax from tkinter
+translate to:
+    logicode10
+end

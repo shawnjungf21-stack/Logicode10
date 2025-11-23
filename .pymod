@@ -1,0 +1,5 @@
+import Modules
+from Modules import tkinter
+from Modules import json
+with tkinter:
+    print(json)

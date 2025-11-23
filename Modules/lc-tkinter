@@ -1,2 +1,3 @@
 import tkinter
 from tkinter import *
+print(tkinter)

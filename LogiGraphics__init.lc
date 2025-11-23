@@ -7,6 +7,8 @@ using circle size 40 as circle
 codeget grav
 using grav
 grav to item "circle"
+  with pymod "RealGrav"
+  apply.realgrav.item:circle{}
 gui.draw 80 20, size 40
   as item "paddle"
 codeget keybinds
@@ -19,3 +21,4 @@ group paddle:
   end
 end
 #This is the end of the code to create a paddle game. We will add better physics later.
+

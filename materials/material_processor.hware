@@ -5,4 +5,6 @@ using cpu_cores
     packets.i/o from item "resources.json"
     using currentdir as mats
     mats.i/o api
-end
+    using api:
+        test.network by packets:sending{dest:selected_user, devname, os} to dest, user, devicename, os
+    end.item api

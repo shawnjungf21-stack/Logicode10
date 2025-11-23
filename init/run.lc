@@ -1,0 +1,8 @@
+codeget showtext
+
+code main run{
+
+    textshow (text:UTF8(UTF8:plaintext(
+	text(:text {"Hello World!}: end)
+    )endsection))
+}

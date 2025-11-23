@@ -1,0 +1,4 @@
+codeget logigraphics
+using logigraphics as gui
+gui.draw.item rectangle as name "rect" into globalclass "shapes" and localgroup "shapes"
+rect.color == bg.red into localgroup "colors"

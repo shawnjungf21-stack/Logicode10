@@ -1,0 +1,9 @@
+code.newmodule "command"
+with module command:
+  script: cpp ///
+    #include logicode.commandprompt.dat
+    #define self as cmd
+    ///
+  :
+pymod tk
+tk.draw circle in root{window]

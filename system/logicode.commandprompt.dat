@@ -1,0 +1,16 @@
+commands{
+    debug -asd
+    debug -as
+    debug -a
+    debug -as
+    debug -sd
+    debug -s
+    debug -d
+    compile [file]
+    compile .
+    compile module [module]
+}
+imports{
+    codeget syntax
+    codeget Modules
+}

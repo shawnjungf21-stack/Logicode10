@@ -1,0 +1,8 @@
+codeget network
+network.remote "https://www.gentoo.org/downloads/mirrors/"
+  using network.remote as gentooremote
+  gentooremote.ping with packets(({512-byte}, {256-byte}, {128-byte}, {64-byte}) as: 1kb_packet.bin)
+  createfile with var "1kb_packet.bin" as "packet" to gentooremote.ping with filesize(ntroot==1kb) for ntroot_build network_ping from module.codeget:network
+network.local "http://yourlocalserver.local"
+using network.local as local
+local.ping with packets(your_packet_name(size) with files{file1.lc, file2.cc, file3.py}) with filesize(ntroot==size,) dest.name==yourlocalserver with user localuser from module.codeget:network

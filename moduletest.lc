@@ -1,0 +1,5 @@
+codeget _all
+using _all as modules
+list.modules
+if list.modules
+  display("Module debugging complete")

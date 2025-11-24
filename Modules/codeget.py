@@ -1,15 +1,15 @@
 import sys
-import logigraphics as gui
+import Modules.logigraphics as gui
 import tkinter
 import pip
 import showtext
 import py
-import syntax.Colors as Colors
+import Modules.Colors as Colors
 import e
 from e import e64
 from e import e32
 from tkinter import messagebox
-from logigraphics import button, loadingbar, menu, frame, window, msgbox
+from Modules.logigraphics import button, loadingbar, menu, frame, window, msgbox
 display = {print("") }
 CURRENT_SYNTAX_FILE = "CODEGET"
 CODEGET_USAGE = "codeget (module)"

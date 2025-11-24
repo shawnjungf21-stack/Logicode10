@@ -6,4 +6,4 @@ with module command:
     ///
   :
 pymod tk
-tk.draw circle in root{window]
+tk.draw circle in root{window}

@@ -1,0 +1,15 @@
+codeget python
+using python as py
+py() {
+    import os
+    import sys
+    import mkfile
+    import readfile
+    import var
+    import if
+    import modules
+    import consts
+}
+codedefine function grammar(str, compmode:{mode}, LCP-lpstr: const) {
+    
+}

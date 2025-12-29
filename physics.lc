@@ -1,0 +1,11 @@
+codeget jphysics
+using jphysics as jpy
+jpy.env(3d);
+{
+  jpy.window
+  in jpy.window: {
+    jpy.env(3d).draw.Ball(3, 3, 3)
+      add physics
+  }
+}
+end
